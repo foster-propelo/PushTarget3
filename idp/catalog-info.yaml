@@ -6,11 +6,17 @@ type: service
 owner: group:account/_account_all_users
 spec:
   lifecycle: production
-  dependsOn: ["resource:account/FosterTest2"]
-  providesApis: ["api:account/philly-special-api"]
-  consumesApis: 
-  partOf: system:default/sports
+  dependsOn:
+    - resource:account/FosterTest2
+  providesApis:
+    - api:account/philly-special-api
+  consumesApis:
+
+  partOf:
+    - system:default/sports
 metadata:
   description: testhing
-  tags: 
-  links: 
+  tags:
+
+  links:
+
