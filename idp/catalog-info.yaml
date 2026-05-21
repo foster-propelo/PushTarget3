@@ -5,49 +5,14 @@ identifier: test_push
 type: service
 owner: group:account/_account_all_users
 spec:
-null
-null
-null
-null
-null
-null
-null
-null
-null
-null
-null
-null
-null
-null
-null
-null
-null
+  lifecycle: production
+  dependsOn: ["resource:account/FosterTest2"]
+  providesApis: ["api:account/philly-special-api"]
+  consumesApis: []
+  partOf: system:default/sports
 metadata:
-null
-null
-null
-null
-null
-null
-null
-null
-null
-null
-null
-null
-null
-null
-null
-null
-null
-null
-null
-null
-null
-null
-null
-null
-null
-null
-null
-null
+  description: testhing
+  tags: []
+  annotations: []
+  links: []
+  []
