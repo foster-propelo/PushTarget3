@@ -4,10 +4,50 @@ name: test_push
 identifier: test_push
 type: service
 owner: group:account/_account_all_users
-spec:\n  lifecycle: production\n  dependsOn:\n    - component:account/zzFoster2\n  providesApis:\n    - api:account/philly-special-api\n  partOf:\n    - system:default/sports
+spec:
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
 metadata:
-description: testhing
-
-
-
-
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
