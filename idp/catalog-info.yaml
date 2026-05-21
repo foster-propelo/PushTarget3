@@ -6,17 +6,11 @@ type: database
 owner: group:account/Foster_Clark
 spec:
   lifecycle: production
-  dependsOn:
-    - component:account/relationtest
-  providesApis:
-    - api:account/philly-special-api\n    - api:account/api1
-  consumesApis:
+  dependsOn:\n    - component:account/relationtest
+  providesApis:\n    - api:account/philly-special-api\n    - api:account/api1
 
-  partOf:
-    - system:account/AAtest1
+  partOf:\n    - system:account/AAtest1
 metadata:
   description: Testing this stuff to see if it works
-  tags:
-    - tag1\n    - tag2\n    - tag3
-  links:
+  tags:\n    - tag1\n    - tag2\n    - tag3
 
