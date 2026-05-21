@@ -8,11 +8,9 @@ spec:
   lifecycle: production
   dependsOn: ["resource:account/FosterTest2"]
   providesApis: ["api:account/philly-special-api"]
-  consumesApis: []
+  consumesApis: 
   partOf: system:default/sports
 metadata:
   description: testhing
-  tags: []
-  annotations: []
-  links: []
-  []
+  tags: 
+  links: 
