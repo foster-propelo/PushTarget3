@@ -1,22 +1,16 @@
 apiVersion: harness.io/v1
-kind: Component
-name: test_push
-identifier: test_push
-type: service
-owner: group:account/_account_all_users
+kind: Resource
+name: test_push3
+identifier: test_push3
+type: database
+owner: group:account/Foster_Clark
 spec:
   lifecycle: production
-  dependsOn:
-    - resource:account/FosterTest2
-  providesApis:
-    - api:account/philly-special-api
-  consumesApis:
+  dependsOn:\n    - component:account/relationtest
+  providesApis:\n    - api:account/philly-special-api","api:account/api1
 
-  partOf:
-    - system:default/sports
+  partOf:\n    - system:account/AAtest1
 metadata:
-  description: testhing
-  tags:
-
-  links:
+  description: Testing this stuff to see if it works
+  tags:\n    - tag1","tag2","tag3
 
