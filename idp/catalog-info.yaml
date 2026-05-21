@@ -1,0 +1,13 @@
+apiVersion: harness.io/v1
+kind: Component
+name: test_push
+identifier: test_push
+type: service
+owner: group:account/_account_all_users
+spec:\n  lifecycle: production\n  dependsOn:\n    - component:account/zzFoster2\n  providesApis:\n    - api:account/philly-special-api\n  partOf:\n    - system:default/sports
+metadata:
+description: testhing
+
+
+
+
