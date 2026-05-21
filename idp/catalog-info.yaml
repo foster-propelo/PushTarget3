@@ -6,11 +6,17 @@ type: database
 owner: group:account/Foster_Clark
 spec:
   lifecycle: production
-  dependsOn:\n    - component:account/relationtest
-  providesApis:\n    - api:account/philly-special-api","api:account/api1
+  dependsOn:
+    - component:account/relationtest
+  providesApis:
+    - api:account/philly-special-api","api:account/api1
+  consumesApis:
 
-  partOf:\n    - system:account/AAtest1
+  partOf:
+    - system:account/AAtest1
 metadata:
   description: Testing this stuff to see if it works
-  tags:\n    - tag1","tag2","tag3
+  tags:
+    - tag1","tag2","tag3
+  links:
 
