@@ -1,0 +1,42 @@
+apiVersion: harness.io/v1
+kind: Resource
+name: test_push333
+identifier: test_push333
+type: database
+owner: group:account/Foster_Clark
+spec:
+  lifecycle: production
+  dependsOn:
+    - component:account/relationtest
+
+
+
+
+  providesApis:
+    - api:account/philly-special-api
+    - api:account/api1
+
+
+
+
+
+
+
+
+
+  partOf:
+    - system:account/AAtest1
+metadata:
+  description: Testing this stuff to see if it works
+  tags:
+    - tag1
+    - tag2
+    - tag3
+
+
+
+
+
+
+
+
