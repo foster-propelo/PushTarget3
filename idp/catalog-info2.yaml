@@ -1,1 +1,42 @@
-deleted
+apiVersion: harness.io/v1
+kind: Component
+name: Thisisatest
+identifier: thisisatest
+type: documentation
+owner: group:account/Jay_test_Group
+spec:
+  lifecycle: development
+  dependsOn:
+    - component:account/zzFoster2
+
+
+
+
+  providesApis:
+    - api:account/api1
+
+
+
+
+
+
+
+
+
+
+  partOf:
+    - system:default/systemA
+metadata:
+  description: test
+  tags:
+    - tag1
+    - asdf
+    - tag3
+
+
+
+
+
+
+
+
